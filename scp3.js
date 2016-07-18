@@ -1,0 +1,12 @@
+var ar1=["ram",10,"hassan"];
+ ar1[1]="subramani";
+ var ar2=["universal","hero"];
+ar1.push("kamal");
+var con=ar1.concat(ar2);
+alert(con);
+ var jo=con.join("//");
+  var j=con.reverse();
+  alert(j);
+ alert(jo);
+ var s=con.sort();
+ alert(s);
